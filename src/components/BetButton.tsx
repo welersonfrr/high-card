@@ -2,7 +2,7 @@ import React from "react";
 
 const BetButton = (props: any) => {
   return (
-    <div className="w-[400px] h-[120px] flex flex-row">
+    <div className="w-[376.5px] h-[120px] flex flex-row">
       <div
         className={`h-full w-1/2 bg-blue-700 flex flex-col justify-start ${
           props.timerEffect === true ? "cursor-pointer" : " cursor-not-allowed"

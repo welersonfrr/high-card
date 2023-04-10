@@ -3,7 +3,7 @@ import { HistoryBoard, Result } from "../interfaces";
 
 const HistoryBoard: React.FC<HistoryBoard> = ({ historic }) => {
   return (
-    <div className=" w-[400px] h-[120px] flex flex-row flex-wrap gap-1 mt-2">
+    <div className=" w-[376.5px] h-[120px] flex flex-row flex-wrap gap-1 mt-2">
       {historic.map((result: Result, index: any) => {
         return (
           <div
